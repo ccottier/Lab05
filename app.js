@@ -65,7 +65,7 @@ function testSumArray(arr) {
 
 // var answerArray = [9, "2,3,4 was passed in as an array of numbers, and 9 is their sum."]
 // // Here is the test for sumArray(); uncomment it to run it
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
