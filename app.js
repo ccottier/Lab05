@@ -58,14 +58,14 @@ Test this function by hand in the console to get it working, and when you think 
 //
 // // Write your code here
 testArray = [2,3,4];
-function testSumArray(arr) {
-  var answerArray = [arr[0] + arr[1] + arr[2], arr[0] + ',' + arr[1] + ',' + arr[2] + ' was passed in as an array of numbers, and ' + (arr[0] + arr[1] + arr[2]) + ' is their sum.'];
-  return answerArray;
-}
-
-// var answerArray = [9, "2,3,4 was passed in as an array of numbers, and 9 is their sum."]
-// // Here is the test for sumArray(); uncomment it to run it
-testSumArray(testArray);
+// function testSumArray(arr) {
+//   var answerArray = [arr[0] + arr[1] + arr[2], arr[0] + ',' + arr[1] + ',' + arr[2] + ' was passed in as an array of numbers, and ' + (arr[0] + arr[1] + arr[2]) + ' is their sum.'];
+//   return answerArray;
+// }
+//
+// // var answerArray = [9, "2,3,4 was passed in as an array of numbers, and 9 is their sum."]
+// // // Here is the test for sumArray(); uncomment it to run it
+// testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
@@ -76,9 +76,12 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-
+function testMultiplyArray(arr) {
+  var answerArray = [arr[0] * arr[1] * arr[2], 'The numbers ' + arr[0] + ',' + arr[1] + ',' + arr[2] + ' have a product of ' + (arr[0] * arr[1] * arr[2]) + '.'];
+  return answerArray;
+}
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Submit the link to the repo via Canvas.
 
