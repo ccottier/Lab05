@@ -4,13 +4,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 "The sum of 4 and 7 is 11."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
-// // Write your code here
-// function testSum(x, y){
-//   var sum = [x + y, 'The sum of ' + x + ' and ' + y + ' is ' + (x + y) + '.'];
-//   return sum;
-// }
-// // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+// Write your code here
+function testSum(x, y) {
+  var sum = [(x + y), 'The sum of ' + x + ' and ' + y + ' is ' + (x + y) + '.'];
+  return sum;
+}
+// Here is the test for sum(); uncomment it to run it
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
 
@@ -41,9 +41,12 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-
-// // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+function testSumAndMultiply(x, y, z) {
+  var sumAndMultiply = [(x + y + z), (x * y * z), x + ' and ' + y + ' and ' + z + ' sum to ' + (x + y + z) + '.', 'The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + (x * y * z) + '.'];
+  return sumAndMultiply;
+}
+// Here is the test for sumAndMultiply(); uncomment it to run it
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. don't forget to create a new branch for your work on the next question!
 
